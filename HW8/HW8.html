@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomeWork8</title>
+</head>
+
+<body>
+	<audio controls loop>
+	<source src="sound1.mp3" type="audio/mpeg">
+	<source src="sound2.ogg" type="audio/ogg">
+	</audio>
+	<video controls width="500" height="auto" poster="jpg.jpg">
+	 <source src="огонь горит 1 минуту.mp4" type="video/mp4">
+	 <source src="огонь-горит-1-минуту_1.ogv" type="video/ogv">
+	 <source src="огонь-горит-1-минуту_1.webm" type="video/webm">
+	</video >
+
+	<video autoplay loop muted width="500" height="auto">
+	 <source src="огонь горит 1 минуту.mp4" type="video/mp4">
+	   <source src="огонь-горит-1-минуту_1.ogv" type="video/ogv">
+	   <source src="огонь-горит-1-минуту_1.webm" type="video/webm">
+	</video>
+	<form>
+	    <p>
+		 <input type="text" name="Ім'я" placeholder="Ім'я" required>
+		</p>
+	</form>
+	
+	<form>
+	    <p>
+		<input type="tel" name="Телефон" placeholder="Телефон" required>
+		</p>
+       <p>
+	   <input type="checkbox" checked>
+	   <input type="checkbox" checked>
+       <input type="checkbox" >
+	   <input type="checkbox" checked>
+	   <input type="checkbox" checked>
+	   <input type="checkbox" checked>
+	   <input type="checkbox" checked>
+	   <input type="checkbox" checked>
+		</p>
+	   <p>
+		 <textarea name="message" placeholder="Повідомлення" required rows="10" cols="30" maxlength="200"></textarea>
+		</p>
+		<p>
+		  <input type="submit" value="Відправити">
+		</p>
+	</form>
+	<form action="/action.php">
+	 <input list="music">
+		<datalist id="music">
+		<option>Rock</option>
+		<option>Hip-Hop</option>
+		<option>Jazz</option>
+		</datalist>
+	</form>
+	 
+	
+</body>
+	
+</html>
